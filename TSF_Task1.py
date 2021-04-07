@@ -2,6 +2,9 @@ import pandas as pd
 import numpy as np  
 import matplotlib.pyplot as plt  
 
+#Task 1
+#Prediction Using Supervised ML
+
 dataset = pd.read_csv(r'D:\Android\Practice\student_scores.csv')
 #print(dataset)
 #print(dataset.head())
