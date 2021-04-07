@@ -36,7 +36,7 @@ y_pred = regressor.predict(X_test)
 df = pd.DataFrame({'Actual': y_test, 'Predicted': y_pred})    
 print(df)
 
-hours = [[7]]  
+hours = [[10]]  
 own_pred = regressor.predict(hours)  
 print("Number of hours = {}".format(hours))  
 print("Prediction Score = {}".format(own_pred[0]))  
